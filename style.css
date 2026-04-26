@@ -14,13 +14,17 @@ header {
 }
 
 nav a {
-    margin: 0 10px;
+    margin: 0 12px;
     color: white;
     text-decoration: none;
     font-weight: bold;
 }
 
-/* HERO (IMAGE FIXED PROPERLY) */
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* HERO SECTION */
 .hero {
     background-image: url("finance.jpg");
     background-size: cover;
@@ -50,9 +54,10 @@ main {
 
 aside {
     flex: 1;
-    background: #ddd;
+    background: #e0e0e0;
     padding: 15px;
-    margin-left: 10px;
+    margin-left: 15px;
+    border-radius: 5px;
 }
 
 /* CONTENT SECTIONS */
@@ -61,6 +66,7 @@ section {
     padding: 15px;
     margin-bottom: 15px;
     border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 /* BUTTON */
@@ -68,9 +74,9 @@ button {
     background-color: #1e2a38;
     color: white;
     border: none;
-    padding: 8px 12px;
+    padding: 8px 14px;
     cursor: pointer;
-    border-radius: 3px;
+    border-radius: 4px;
 }
 
 button:hover {
@@ -82,5 +88,6 @@ footer {
     background-color: #1e2a38;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 12px;
+    margin-top: 10px;
 }
